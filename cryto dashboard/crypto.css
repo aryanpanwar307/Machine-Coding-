@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.3fr 1fr;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name, #price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#short_name, #percentage {
+    font-size: 20px;
+}
+
+#percentage {
+    color: red;
+}
